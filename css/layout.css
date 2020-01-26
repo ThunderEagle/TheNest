@@ -1,0 +1,194 @@
+junk
+	{
+ 	background: #deba39;
+ 	background: #b48921;
+ 	background: #ecd15c;
+ 	background: #c89b26;
+  }
+body 
+	{ 
+		position: relative; 
+		min-width: 600px; 
+		width: 100%; 
+		margin: 0; 
+		padding: 0; 
+		FONT-FAMILY: verdana,geneva,sans-serif;
+	}
+#top 
+	{ position: absolute; 
+		top: 0; 
+		left: 0; 
+		min-width: 600px; 
+		width: 100%; 
+		height: 100px; 
+		/*background:	transparent url(..\images\lighting.jpg) repeat scroll 100% 100%; */
+		background: #DEBA39;
+		Z-INDEX: 3;
+	}
+#left 
+	{ 
+		position: absolute; 
+		top:100px; 
+		left: 0; 
+		width: 19%;  
+		height: 100%;
+		margin: 0% 1% 0 0; 
+		background:	#B48921 none repeat scroll 0% 0%;
+	}
+#middle 
+	{ position: absolute; 
+		top:100px; 
+		left:20%; 
+		min-width: 360px; 
+		width: 60%; 
+		margin-top: 2%; 
+		FONT: 14px/18px Georgia,'New York',serif;
+	}
+#middle H4
+	{
+    MARGIN-TOP: 1.5em;
+    FONT-SIZE: 1em;
+    MARGIN-BOTTOM: 0px
+		font: Arial;
+	}
+#middle H6
+{
+    COLOR: #708090
+}
+
+H6
+{
+    MARGIN: 0px;
+    FONT-FAMILY: verdana,geneva,sans-serif
+}
+H4
+{
+    MARGIN: 0px;
+    FONT-FAMILY: verdana,geneva,sans-serif
+}
+
+#right 
+	{ position: absolute; 
+		top:100px; 
+		left: 80%; 
+		width: 19%; 
+		margin: 2% 0 0 1%; 
+		background: #deba39;
+	}
+
+
+
+#top DIV#optionBar
+{
+    BORDER-TOP: #B48921 1px solid; 
+    BACKGROUND: #B48921;
+    BOTTOM: -2px;
+    LEFT: 0px;
+    BORDER-BOTTOM: #B48921 1px solid;
+    HEIGHT: 45px
+}
+#top A.logo IMG
+{
+    Z-INDEX: 4;
+    LEFT: 3px;
+    POSITION: absolute;
+    TOP: 3px
+}
+
+
+/* HR styles need for IE/Win. */
+hr.holder { width:600px; visibility: hidden; } /* Equal to 'top' */
+hr.left, hr.right { width: 120px; visibility: hidden; }
+hr.middle { width: 360px; visibility: hidden; } 
+
+/* These HR styles replace the above, and are needed for Netscape 4.x. 
+   Left and right margins are half the relevant DIV width */
+hr.holder { width:0; margin: 0 300px; } /* Equal to 'top' */
+hr.left, hr.right { width: 0; margin: 0 60px; }
+hr.middle { width: 0; margin: 0 180px;  } 
+
+/* DIVs must have a border value set in Netscape 4.x */
+div { border: none; }
+
+/* Hide HRs in most browsers supporting min-width */
+html>body hr.left, html>body hr.right, html>body hr.middle, html>body hr.holder { display: none; }
+
+#top h2 
+	{ 
+		text-align: right; 
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-bottom: 0px;
+	}
+
+
+#right
+{
+    FONT-SIZE: 0.66em;
+    RIGHT: 2%;
+    WIDTH: 17%;
+    LINE-HEIGHT: 1.22em;
+    POSITION: absolute;
+    TOP: 138px;
+    min-width: 110px
+}
+#right .smallText
+{
+    FONT-SIZE: 1em
+}
+#right #right1
+{
+    MARGIN-TOP: 100px
+}
+#right #right2
+{
+    MARGIN-TOP: 100px
+}
+#right P.rightHead
+{
+    FONT-WEIGHT: bold;
+    MARGIN-BOTTOM: -1em
+}
+
+#left #secondNav
+{
+	BACKGROUND: transparent;
+	Z-INDEX: 2;
+}
+
+#left #secondNav OL
+{
+    MARGIN-TOP: 0px
+}
+#left #secondNav UL
+{
+    MARGIN-TOP: 0px
+}
+#left #secondNav LI
+{
+    MARGIN: 0px 0px 0.4em -1.3em
+}
+
+
+.note
+{
+    DISPLAY: block;
+    FONT-SIZE: 0.8em;
+    TEXT-INDENT: 0px;
+    FONT-STYLE: italic;
+    TEXT-ALIGN: center
+}
+
+.quote
+{
+	FONT-FAMILY: Arial;
+	TEXT-INDENT: 0px;
+	FONT-SIZE: 10pt;
+	COLOR: #708090;
+}
+
+
+/* This is visual formatting for the demo page only.
+   Delete them and the empty paragraph tags in real use */
+body { background:  #EAEAAE; }
+

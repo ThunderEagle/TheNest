@@ -1,0 +1,100 @@
+#navigation
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0.5em;
+    FONT-SIZE: 0.6em;
+    Z-INDEX: 1;
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 1em;
+    POSITION: absolute;
+    min-width: 110px;
+    background:	#B48921;
+}
+UNKNOWN
+{
+    POSITION: fixed
+}
+#navigation SPAN
+{
+    BORDER: #ECD15C 1px solid;
+    PADDING-RIGHT: 2px;
+    DISPLAY: none;
+    PADDING-LEFT: 2px;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    FLOAT: left;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 4px 0px -2px -2px;
+    FONT: 9px/10px monospace;
+    CURSOR: pointer;
+    COLOR: #ECD15C;
+    PADDING-TOP: 0px;
+    TEXT-DECORATION: none;
+}
+UNKNOWN
+{
+    BORDER-RIGHT: #708090 1px dotted;
+    BORDER-TOP: #708090 1px dotted;
+    BORDER-LEFT: #708090 1px dotted;
+    MARGIN-RIGHT: 2px;
+    BORDER-BOTTOM: #708090 1px dotted;
+}
+#navigation P.navHead
+{
+    DISPLAY: none
+}
+#navigation P
+{
+    MARGIN: 0px;
+}
+#navigation DIV.nav
+{
+		background: transparent;
+    FONT-WEIGHT: bold;
+    LINE-HEIGHT: 18px;
+}
+#navigation DIV.nav A
+{
+    COLOR: #039;
+}
+#navigation DIV.nav A:hover
+{
+    TEXT-DECORATION: underline;
+}
+#navigation A.menuOpen
+{
+    TEXT-DECORATION: underline;
+}
+#navigation .submenu
+{
+    MARGIN-TOP: 0px;
+    FONT-WEIGHT: normal;
+}
+#navigation .submenu LI
+{
+    MARGIN: 0px 0px 0.6em -10px;
+    LINE-HEIGHT: 1.22em;
+}
+#navigation .submenu .smallText
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 0.9em;
+}
+#navigation HR.divider
+{
+    WIDTH: 20%
+}
+#navigation #promo
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 72px auto;
+    WIDTH: 108px;
+    PADDING-TOP: 5px;
+}
+#navigation #promo IMG
+{
+    MARGIN: 5px 10px;
+}
+
